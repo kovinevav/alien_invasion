@@ -10,6 +10,7 @@ class AlienInvasion:
         while True:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
+                    print("Bay")
                     sys.exit()
 
 
